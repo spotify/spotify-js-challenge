@@ -1,0 +1,75 @@
+/* Global styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+body {
+	background: url('background.jpg') repeat center;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
+/* Helper classes for vertical and horizontal centering */
+
+.center-out {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+
+.center-in {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+/* Login box */
+
+.login-box {
+	background-color: #EEE;
+	border: solid 1px #FFFFFF;
+	height: 207px;
+	margin: 0 auto;
+	width: 500px;
+	opacity: .85;
+}
+
+.login-gradient {
+	background: linear-gradient(to bottom, #B6E026 0%, #6BA51F 100%);
+	float: left;
+	height: 100%;
+	width: 25px;
+}
+
+.login-title {
+	padding: 10px 40px;
+}
+
+.login-input {
+	border: solid 1px #888;
+	display: block;
+	margin: 10px auto;
+	padding: 4px;
+	width: 200px;
+}
+
+.login-submit {
+	background-color: #B6E026;
+	border: outset 1px #90BE00;
+	display: block;
+	cursor: pointer;
+	margin: 20px auto;
+	width: 100px;
+	padding: 10px;
+}

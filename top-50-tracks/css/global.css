@@ -1,0 +1,32 @@
+body {
+  background: #eeeeee;
+  width: 600px;
+  margin: auto;
+}
+
+iframe {
+  border: none;
+  height: 180px;
+}
+
+.spotify-logo {
+  width: 120px;
+  margin: 20px 0;
+}
+
+#rate-selector {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+
+#correctness-label, #render-timing-label {
+  float: right;
+  margin: 2px;
+}
+
+.panel > .list-group .list-group-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

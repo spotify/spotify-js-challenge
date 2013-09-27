@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Spotify search example</title>
+		<script type="text/javascript" src="spotify-search.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			SpotifySearch.album('foo', function(list) {
+				document.body.appendChild(list);
+			});
+		</script>
+	</body>
+</html>

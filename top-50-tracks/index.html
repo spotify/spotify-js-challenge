@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top 50 Tracks</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+</head>
+<body>
+
+	<iframe seamless="seamless" id='track-notifier-iframe' src='iframe.html' width='100%'></iframe>
+
+	<div class='container'>
+		<div class='panel panel-default'>
+			<div class="panel-heading">
+				Top 50 Tracks
+				<span id='correctness-label' class="label"></span>
+				<span id='render-timing-label' class="label label-info"></span>
+			</div>
+			<div class="panel-body">
+				<p>You must insert the tracks here by implementing the necessary code in <code>js/toplist.js</code></p>
+			</div>
+			<!-- YOU MUST INJECT TRACK NODES INSIDE THE FOLLOWING DIV FROM YOUR JS CODE -->
+			<div id='top-tracks' class='list-group'></div>
+		</div>
+	</div>
+
+	<script type='text/javascript' src='js/track.js'></script>
+	<script type='text/javascript' src='js/profiler.js'></script>
+	<script type='text/javascript' src='js/toplist.js'></script>
+</body>
+</html>

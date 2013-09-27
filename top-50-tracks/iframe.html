@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+</head>
+<body>
+	<div class='container'>
+		<img class='spotify-logo' src='img/spotify-logo-black.png' />
+
+		<div id='rate-selector' class="btn-group">
+			<button id='btn-stop' type="button" class="btn btn-default">Stop</button>
+			<button id='btn-slow-rate' type="button" class="btn btn-default">Slow Rate</button>
+			<button id='btn-medium-rate' type="button" class="btn btn-default">Medium Rate</button>
+			<button id='btn-fast-rate' type="button" class="btn btn-default">Fast Rate</button>
+		</div>
+
+		<div class='panel panel-default'>
+			<div class="panel-heading">Last track received</div>
+			<div id='latest-tracks' class='list-group'></div>
+		</div>
+
+	</div>
+	<script type='text/javascript' src='js/track.js'></script>
+	<script type='text/javascript' src='js/iframe/tracksdata.js'></script>
+	<script type='text/javascript' src='js/iframe/tracknotifier.js'></script>
+</body>
+</html>
