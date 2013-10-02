@@ -2,7 +2,7 @@
  * Disclaimer: This fragment of code forms part of a code challenge,
  * it contains INTENTIONALLY bugs/problems that you need to identify.
  *
- * @see https://github.com/spotify/jsconfeu-2013
+ * @see https://github.com/spotify/spotify-js-challenge
  */
 var Spotify = Spotify || {};
 
