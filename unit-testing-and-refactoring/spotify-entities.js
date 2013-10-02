@@ -8,7 +8,7 @@
  * - 2. Refactor the original code.
  * - 3. You can switch to your preferred unit testing FW(even write your own).
  *
- * @see https://github.com/spotify/jsconfeu-2013
+ * @see https://github.com/spotify/spotify-js-challenge
  */
 
 var Spotify = Spotify || {};
