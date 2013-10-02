@@ -16,7 +16,7 @@ Spotify Javascript Coding challenges
 1. Work locally in a custom branch `git checkout -b my-solutions`
 
 2. When you are ready with the code, you have several options: 
-   * Option 1: Send us the code via e-mail
+   * Option 1: Send us the code via e-mail: lxjs2013@spotify.com
      * First generate a patch: `git diff --no-prefix master > solution.patch`
      * Send the generated patch to
      * Use the subject **[Challenge]**
