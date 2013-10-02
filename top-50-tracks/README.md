@@ -6,7 +6,7 @@ Generate a top 50 track list, sorted by popularity, in real time.
 
 **Points: 4**
 
-Add the necessary code to the file [toplist.js](./toplist.js) so that the top 50 list sorted by popularity is updated in realtime whenever the embedded iframe sends a track to its parent container.
+Add the necessary code to the file [toplist.js](./js/toplist.js) so that the top 50 list sorted by popularity is updated in realtime whenever the embedded iframe sends a track to its parent container.
 
 [index.html](./index.html) contains an iframe that periodically emits messages with tracks information to its parent using postMessage (https://developer.mozilla.org/en-US/docs/Web/API/window.postMessage).
 
